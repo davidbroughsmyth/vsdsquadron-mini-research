@@ -31,7 +31,7 @@ Features  |
 # Application Development
 Building a realtime LED clock using I2C
 Application steps |
---- |
+--- | --- |
 [I2C POC](./I2C_poc) | [I2C lib](https://github.com/hexeguitar/ch32v003fun_libs) |
 Driving a I2C LED module |
 Connecting a I2C realtime clock |
