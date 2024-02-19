@@ -6,10 +6,10 @@ Building projects with the **VSDSquadron Mini** RISC-V board
 [CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 ![image](./images/CH32V003.png)
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Markdown | 
+--- |
+*Still* |
+1 |
 
 Features  |
 ----
