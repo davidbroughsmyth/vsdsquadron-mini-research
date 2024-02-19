@@ -1,7 +1,8 @@
 # vsdsquadron-mini-research
 Building projects with the **VSDSquadron Mini** RISC-V board
 ![image](./images/mini.png)
-[VSDSquadron Mini board datasheet](./docs/VSDSQMinidatasheet.pdf)
+[VSDSquadron Mini datasheet](./docs/VSDSQMinidatasheet.pdf)
+[VSDSquadron Mini Schematic](./docs/SquadronMini_2A_Schematic.pdf.pdf)
 ## CH32V003 Chip datasheet
 [CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 ![image](./images/CH32V003.png)
