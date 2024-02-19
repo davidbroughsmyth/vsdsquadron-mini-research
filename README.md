@@ -5,8 +5,8 @@ Building projects with the **VSDSquadron Mini** RISC-V board
 
 [VSDSquadron Mini Schematic](./docs/SquadronMini_2A_Schematic.pdf.pdf)
 ## CH32V003 Chip datasheet
-[CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 ![image](./images/CH32V003.png)
+[CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 Features  |
 ---- |
 | QingKe 32-bit RISC-V2A processor, supporting 2 levels of interrupt nesting  |
@@ -27,3 +27,15 @@ Features  |
 
 ## CH32V003 Chip Reference Manual
 [CH32V003 Reference Manua](./docs/CH32V003RM.PDF)
+===
+# Application Development
+Building a realtime LED clock using I2C
+Application steps |
+--- |
+I2C POC |
+Driving a I2C LED module |
+Connecting a I2C realtime clock |
+Time setting control |
+
+
+
