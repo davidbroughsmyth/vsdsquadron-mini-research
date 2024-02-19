@@ -6,6 +6,11 @@ Building projects with the **VSDSquadron Mini** RISC-V board
 [CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 ![image](./images/CH32V003.png)
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 Features  |
 ----
 | QingKe 32-bit RISC-V2A processor, supporting 2 levels of interrupt nesting  |
