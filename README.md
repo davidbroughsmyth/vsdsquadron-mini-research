@@ -32,7 +32,7 @@ Features  |
 Building a realtime LED clock using I2C
 Application steps |
 --- |
-I2C POC |
+[I2C POC](./I2C_poc) |
 Driving a I2C LED module |
 Connecting a I2C realtime clock |
 Time setting control |
