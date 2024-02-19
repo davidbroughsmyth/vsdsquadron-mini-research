@@ -12,7 +12,7 @@ Markdown |
 1 |
 
 Features  |
-----
+---- |
 | QingKe 32-bit RISC-V2A processor, supporting 2 levels of interrupt nesting  |
 | Maximum 48MHz system main frequency |
 | 2KB SRAM, 16KB Flash |
