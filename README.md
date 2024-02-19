@@ -5,19 +5,12 @@ Building projects with the **VSDSquadron Mini** RISC-V board
 ## CH32V003 Chip datasheet
 [CH32V003 datasheet](./docs/CH32V003DS0.PDF)
 ![image](./images/CH32V003.png)
-
-Markdown | 
---- |
-*Still* |
-1 |
-
 Features  |
 ---- |
 | QingKe 32-bit RISC-V2A processor, supporting 2 levels of interrupt nesting  |
 | Maximum 48MHz system main frequency |
 | 2KB SRAM, 16KB Flash |
 | Power supply voltage: 3.3/5V |
-
 | Multiple low-power modes: Sleep, Standby |
 | Power on/off reset, programmable voltage detector|
 | 1 group of 1-channel general-purpose DMA controller|
