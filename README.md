@@ -7,6 +7,8 @@ Building projects with the **VSDSquadron Mini** RISC-V board
 ## CH32V003 Chip datasheet
 ![image](./images/CH32V003.png)
 [CH32V003 datasheet](./docs/CH32V003DS0.PDF)
+
+[CH32V003 Reference Manual](./docs/CH32V003RM.PDF)
 Features  |
 ---- |
 | QingKe 32-bit RISC-V2A processor, supporting 2 levels of interrupt nesting  |
@@ -24,9 +26,6 @@ Features  |
 | 18 I/O ports, mapping an external interrupt|
 | 64-bit chip unique ID|
 | 1-wire serial debug interface (SDI)|
-
-## CH32V003 Chip Reference Manual
-[CH32V003 Reference Manua](./docs/CH32V003RM.PDF)
 
 ***
 # Application Development
