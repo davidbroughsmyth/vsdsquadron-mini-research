@@ -33,16 +33,17 @@ Building a realtime LED clock using I2C
 Application steps | Reference links |
 --- | --- |
 [I2C POC](./I2C_poc) | [I2C lib](https://github.com/hexeguitar/ch32v003fun_libs) |
-Driving a I2C LED module | [LED module lib] (https://github.com/DFRobot/DFRobot_LedDisplayModule) |
-Connecting a I2C realtime clock | [RTC clock module lib] (https://github.com/DFRobot/DFRobot_DS3231M) |
+Driving a I2C LED module | [LED module lib](https://github.com/DFRobot/DFRobot_LedDisplayModule) |
+Connecting a I2C realtime clock | [RTC clock module lib](https://github.com/DFRobot/DFRobot_DS3231M) |
 Time setting control |
 ## Block diagram
+
 ![image](./images/I2C_RTC_clock.png)
 
 BOM | Link |
 --- | --- |
-LED Module |
-Realtime Clock |
-I2C Hub |
-Buttons |
-VSDSquadron Mini |
+LED Module | [Gravity: 8-Digital LED Segment Display](https://www.dfrobot.com/product-1979.html)
+Realtime Clock | [Fermion: DS3231M MEMS Precise RTC](https://www.dfrobot.com/product-1991.html)
+I2C Hub | [Gravity: I2C HUB](https://www.dfrobot.com/product-2179.html)
+Buttons | [Gravity: Digital Push Button](https://www.dfrobot.com/product-1098.html)
+VSDSquadron Mini | (https://www.vlsisystemdesign.com/vsdsquadronmini/)
