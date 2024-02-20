@@ -37,7 +37,8 @@ Driving a I2C LED module | [LED module lib](https://github.com/DFRobot/DFRobot_L
 Connecting a I2C realtime clock | [RTC clock module lib](https://github.com/DFRobot/DFRobot_DS3231M) |
 Time setting control |
 ## Block diagram
-
+Conceptual design using a RTC and LED module. Time settiing through buttons and optional alarm module.
+The Arduino is representing the VSDSquadron Mini in this case.
 ![image](./images/I2C_RTC_clock.png)
 
 BOM | Link |
@@ -46,4 +47,4 @@ LED Module | [Gravity: 8-Digital LED Segment Display](https://www.dfrobot.com/pr
 Realtime Clock | [Fermion: DS3231M MEMS Precise RTC](https://www.dfrobot.com/product-1991.html)
 I2C Hub | [Gravity: I2C HUB](https://www.dfrobot.com/product-2179.html)
 Buttons | [Gravity: Digital Push Button](https://www.dfrobot.com/product-1098.html)
-VSDSquadron Mini | (https://www.vlsisystemdesign.com/vsdsquadronmini/)
+VSDSquadron Mini | https://www.vlsisystemdesign.com/vsdsquadronmini)
