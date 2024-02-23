@@ -37,7 +37,7 @@ For Linux/MacOs, where you will need to find the correct /dev/tty.usb* device:
 ls /dev/tty.usb*   # Find the correct device
 sudo cu -s 115200 -l /dev/tty.usbserial-0001 # Adjust the serial device
 ```
-Using PlatformIO:
+Using PlatformIO (should work for all platforms):
 ```shell
 pio device monitor -b 115200
 ```
