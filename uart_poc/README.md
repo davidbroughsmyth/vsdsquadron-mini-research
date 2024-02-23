@@ -26,3 +26,5 @@ The UART communication is done through the GPIO pins. The following table shows 
 | RX (PD6)              | TX                    |
 | GND              | GND                   |
 | 3.3V             | 3.3V                  |
+
+[image]: images/uart_poc.png
