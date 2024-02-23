@@ -28,3 +28,16 @@ The UART communication is done through the GPIO pins. The following table shows 
 | 3.3V             | 3.3V                  |
 
 ![image](../images/uart_usb.jpg)
+
+## Serial Monitor
+You can use any serial monitor to see the UART communication. The following command will help you to open the serial monitor.
+
+For Linux/MacOs, where you will need to find the correct /dev/tty.usb* device:
+```shell
+sudo cu -s 115200 -l /dev/tty.usbserial-0001
+```
+Using PlatformIO:
+```shell
+pio device monitor -b 115200
+```
+![image](../images/uart_monitor.png)
