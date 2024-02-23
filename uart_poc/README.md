@@ -27,4 +27,4 @@ The UART communication is done through the GPIO pins. The following table shows 
 | GND              | GND                   |
 | 3.3V             | 3.3V                  |
 
-[!image](../images/uart_usb.jpg)
+![image](../images/uart_usb.jpg)
