@@ -52,4 +52,4 @@ Using PlatformIO (should work for all platforms):
 ```shell
 pio device monitor -b 115200
 ```
-![image](../images/uart_monitor.png)
+![image](../images/serial_echo.png)
