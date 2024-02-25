@@ -16,9 +16,15 @@ $ pio run --target upload
 # Clean build files
 $ pio run --target clean
 ```
+## API Reference
+| Function | Description |
+|----------|-------------|
+| [USART_Printf_Init](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk/blob/5992d6957398992f7455e614c4988458f1aa970a/Debug/ch32v00x/debug.c) | Initializes the USARTx peripheral |
+| [Delay_Ms](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk/blob/5992d6957398992f7455e614c4988458f1aa970a/Debug/ch32v00x/debug.c) | Millisecond Delay Time |
+
 
 ## Hardware Connection
-The UART communication is done through the GPIO pins. The following table shows the connection between the VSDsquadron Mini and the USB to UART converter.
+The UART communication is done through the GPIO pins. The following table shows the connection between the VSDsquadron Mini and the USB to UART TTL converter. The USB to UART TTL converter I'm using is a CP2102 module.
 
 | VSDsquadron Mini | USB to UART converter |
 |------------------|-----------------------|
@@ -27,10 +33,12 @@ The UART communication is done through the GPIO pins. The following table shows 
 | GND              | GND                   |
 | 3.3V             | 3.3V                  |
 
+*Caution*: The VSDsquadron Mini is a +3.3V device. The USB to UART converter is powering all devices, so make sure to use the 3.3V from the USB to UART converter and not +5v. When programmiing the VSDsquadron Mini via the usb c, I still have the USB to UART converter wired up but not plugged into any USB socket.
+
 ![image](../images/uart_usb.jpg)
 
 ## Serial Monitor
-You can use any serial monitor to see the UART communication. The following command will help you to open the serial monitor.
+You can use any serial monitor to see the UART communication. The following command are what I use.
 
 For Linux/MacOs, where you will need to find the correct /dev/tty.usb* device:
 ```shell
