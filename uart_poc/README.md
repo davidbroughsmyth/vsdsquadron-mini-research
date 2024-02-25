@@ -1,6 +1,6 @@
 PlatformIO Uart_POC project
 =====================================
-This is a simple project to test the UART communication for the VSDsquadron Mini device. The project is based on the PlatformIO framework.
+This is a simple proof of concept (POC) project to test the UART communication for the VSDsquadron Mini device. The project is based on the PlatformIO framework.
 
 To build and upload the firmware, you need to install the PlatformIO Core. The following commands will help you to install the PlatformIO Core and build the firmware.
 1. [Install PlatformIO Core](https://docs.platformio.org/page/core.html)
