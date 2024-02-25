@@ -17,6 +17,7 @@ $ pio run --target upload
 $ pio run --target clean
 ```
 ## API Reference
+Github Framework [WCH-NoneOS-SDK](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk/tree/5992d6957398992f7455e614c4988458f1aa970a)
 | Function | Description |
 |----------|-------------|
 | [USART_Printf_Init](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk/blob/5992d6957398992f7455e614c4988458f1aa970a/Debug/ch32v00x/debug.c) | Initializes the USARTx peripheral |
