@@ -32,6 +32,8 @@ Features  |
 Building a realtime LED clock using I2C
 Application steps | Reference links |
 --- | --- |
+[Uart POC](./uart_poc) | Transmitting data using the UART |
+[Uart echo](./uart_echo) | Echoing data using the UART |
 [I2C POC](./I2C_poc) | [I2C lib](https://github.com/hexeguitar/ch32v003fun_libs) |
 Driving a I2C LED module | [LED module lib](https://github.com/DFRobot/DFRobot_LedDisplayModule) |
 Connecting a I2C realtime clock | [RTC clock module lib](https://github.com/DFRobot/DFRobot_DS3231M) |
