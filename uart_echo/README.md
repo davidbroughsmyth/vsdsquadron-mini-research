@@ -43,7 +43,7 @@ The UART communication is done through the GPIO pins. The following table shows 
 ## Serial Monitor
 You can use any serial monitor to see the UART communication. The following command are what I use.
 
-For MacOs, you will need to find the correct, look device here /dev/tty.usb*:
+For MacOs, you will need to find the correct port, look for the device here /dev/tty.usb*:
 ```shell
 ls /dev/tty.usb*   # Find the correct device
 screen /dev/tty.usbserial-0001 115200 # Adjust for the serial device
