@@ -32,6 +32,7 @@ Features  |
 Building a realtime LED clock using I2C
 Application steps | Reference links |
 --- | --- |
+[LED blinky](./blinky) | PlatformIO LED blinky application |
 [Uart POC](./uart_poc) | Transmitting data using the UART |
 [Uart echo](./uart_echo) | Echoing data using the UART |
 [I2C POC](./I2C_poc) | [I2C lib](https://github.com/hexeguitar/ch32v003fun_libs) |
