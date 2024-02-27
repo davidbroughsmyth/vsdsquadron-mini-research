@@ -34,6 +34,8 @@ The UART communication is done through the GPIO pins. The following table shows 
 | GND              | GND                   |
 | 3.3V             | 3.3V                  |
 
+![image](usb_serial_VSDMini.png)
+
 *Caution*: The VSDsquadron Mini is a +3.3V device. The USB to UART converter is powering all devices, so make sure to use the 3.3V from the USB to UART converter and not +5v. When programmiing the VSDsquadron Mini via the usb c, I still have the USB to UART converter wired up but not plugged into any USB socket.
 
 ![image](../images/uart_usb.jpg)
